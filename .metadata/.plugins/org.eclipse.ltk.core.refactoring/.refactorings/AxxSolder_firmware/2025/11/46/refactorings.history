@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AxxSolder_firmware/AxxSolder.ioc&apos; to &apos;AxxSolder_firmware.ioc&apos;" description="Rename resource &apos;AxxSolder.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="AxxSolder.ioc" name="AxxSolder_firmware.ioc" stamp="1762927196804" updateReferences="true"/>
+</session>

@@ -89,7 +89,9 @@ typedef struct{
 	float beep_at_set_temp;
 	float beep_tone;
 	float momentary_stand;
+	float power_unit;
 	float language;
+	float detect_nt115;
 }Flash_values;
 /* Global variables defined in main.c */
 extern Flash_values flash_values;
@@ -144,7 +146,7 @@ extern uint8_t settings_menu_active;
 #define MAX_SELECTABLE_TEMPERATURE 450
 
 /* General PID parameters */
-#define PID_MAX_OUTPUT 500
+#define PID_MAX_OUTPUT 500.0f
 #define FIXED_MEASURE_DUTY (PID_MAX_OUTPUT / 2)  // i.e. 250 / 2 = 250
 #define PID_UPDATE_INTERVAL 25
 #define PID_ADD_I_MIN_ERROR 75
