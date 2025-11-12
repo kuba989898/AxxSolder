@@ -1431,44 +1431,44 @@ void HAL_ADC_LevelOutOfWindowCallback(ADC_HandleTypeDef* hadc __unused){
 int main(void)
 {
 
-	/* USER CODE BEGIN 1 */
+  /* USER CODE BEGIN 1 */
 
-	/* USER CODE END 1 */
+  /* USER CODE END 1 */
 
-	/* MCU Configuration--------------------------------------------------------*/
+  /* MCU Configuration--------------------------------------------------------*/
 
-	/* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-	HAL_Init();
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
 
-	/* USER CODE BEGIN Init */
+  /* USER CODE BEGIN Init */
 
-	/* USER CODE END Init */
+  /* USER CODE END Init */
 
-	/* Configure the system clock */
-	SystemClock_Config();
+  /* Configure the system clock */
+  SystemClock_Config();
 
-	/* USER CODE BEGIN SysInit */
+  /* USER CODE BEGIN SysInit */
 
-	/* USER CODE END SysInit */
+  /* USER CODE END SysInit */
 
-	/* Initialize all configured peripherals */
-	MX_GPIO_Init();
-	MX_DMA_Init();
-	MX_ADC1_Init();
-	MX_ADC2_Init();
-	MX_CRC_Init();
-	MX_TIM1_Init();
-	MX_TIM2_Init();
-	MX_TIM4_Init();
-	MX_SPI2_Init();
-	MX_I2C1_Init();
-	MX_USART1_UART_Init();
-	MX_TIM7_Init();
-	MX_TIM8_Init();
-	MX_TIM6_Init();
-	MX_TIM16_Init();
-	MX_TIM17_Init();
-	/* USER CODE BEGIN 2 */
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_ADC1_Init();
+  MX_ADC2_Init();
+  MX_CRC_Init();
+  MX_TIM1_Init();
+  MX_TIM2_Init();
+  MX_TIM4_Init();
+  MX_SPI2_Init();
+  MX_I2C1_Init();
+  MX_USART1_UART_Init();
+  MX_TIM7_Init();
+  MX_TIM8_Init();
+  MX_TIM6_Init();
+  MX_TIM16_Init();
+  MX_TIM17_Init();
+  /* USER CODE BEGIN 2 */
 
 	set_heater_duty(0);		//Set heater duty to zero to ensure zero startup current
 	HAL_TIMEx_PWMN_Start_IT(&htim1, TIM_CHANNEL_3);
@@ -1485,10 +1485,10 @@ int main(void)
 	HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
 	HAL_ADC_Start_DMA(&hadc1, (uint32_t*)ADC1_BUF, (uint32_t)ADC1_BUF_LEN);	//Start ADC DMA mode
 
-	/* USER CODE END 2 */
+  /* USER CODE END 2 */
 
-	/* Infinite loop */
-	/* USER CODE BEGIN WHILE */
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
 	HAL_Delay(200);
 
 	// Check if user data in flash is valid, if not - write default parameters
@@ -2543,7 +2543,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, USR_2_Pin|USR_3_Pin|USR_4_Pin|SPI2_SD_CS_Pin
-                          |SPI2_DC_Pin|SPI2_RST_Pin|SPI2_CS_Pin, GPIO_PIN_RESET);
+                          |SPI2_CS_Pin|SPI2_DC_Pin|SPI2_RST_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(USR_1_GPIO_Port, USR_1_Pin, GPIO_PIN_RESET);
@@ -2567,9 +2567,9 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_Init(SW_2_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : USR_2_Pin USR_3_Pin USR_4_Pin SPI2_SD_CS_Pin
-                           SPI2_DC_Pin SPI2_RST_Pin SPI2_CS_Pin */
+                           SPI2_CS_Pin SPI2_DC_Pin SPI2_RST_Pin */
   GPIO_InitStruct.Pin = USR_2_Pin|USR_3_Pin|USR_4_Pin|SPI2_SD_CS_Pin
-                          |SPI2_DC_Pin|SPI2_RST_Pin|SPI2_CS_Pin;
+                          |SPI2_CS_Pin|SPI2_DC_Pin|SPI2_RST_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

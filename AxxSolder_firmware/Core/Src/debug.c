@@ -1,5 +1,6 @@
 #include "debug.h"
 #include "string.h"
+#include "stdio.h"
 
 extern UART_HandleTypeDef huart1;
 extern DEBUG_VERBOSITY_t debugLevel;
