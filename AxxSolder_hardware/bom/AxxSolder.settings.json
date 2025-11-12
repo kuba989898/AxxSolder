@@ -1,0 +1,52 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "AxxSolder",
+        "revision": "",
+        "company": "",
+        "date": "2025-06-09 18:26:27"
+    },
+    "settings": {
+        "canvaslayout": "B",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Arrived",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "126,93,53,102,36,80,109,85,97,11,110,64,129,146,83,89,124,107,82,34,33,63,101,32,79,81,57,140,44,120,25,74,45,106,16,104,125,115,12,26,42,1,144,6,99,139,98,54,145,95,13,92,118,130,19,105,59,141,121,60,103,135,67,55,29,66,134,37,86,20,58,52,77,132,41,24,88,122,47,61,114,39,70,138,31,68,28,84,143,123,21,27,108,91,72,51,75,38,87,71,112,136,56,22,119,73,40,76,48,113,69,117,127,100,3,2,8,4,49,90",
+            "Arrived": "106,16,126,93,53,102,36,80,109,85,97,11,110,64,129,146,83,89,124,107,82,34,33,63,101,32,79,81,57,140,44,120,25,74,45,104,144,115,12,125,26,99,130,19,105,59,3,127,100,2,8,4,1,6,92,118,98,95,13,54,139,145,42",
+            "Placed": "127,100,3,2,8,4"
+        },
+        "darkMode": false,
+        "highlightpin1": "none",
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "offsetBackRotation": false,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": true,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Manufacturer_Name",
+            "Manufacturer_Part_Number",
+            "Mouser Part Number",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "netColors": {},
+        "markWhenChecked": "Arrived",
+        "highlightRowOnClick": true
+    }
+}
