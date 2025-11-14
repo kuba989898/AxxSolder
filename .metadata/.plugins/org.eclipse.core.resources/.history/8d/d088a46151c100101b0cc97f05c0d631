@@ -1,0 +1,3 @@
+Core/Src/type_packers.o: ../Core/Src/type_packers.c \
+ ../Core/Inc/type_packers.h
+../Core/Inc/type_packers.h:

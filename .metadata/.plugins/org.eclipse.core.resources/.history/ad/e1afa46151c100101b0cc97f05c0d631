@@ -1,0 +1,7 @@
+../Core/Src/type_packers.c:12:6:pack_frame_start	0	static
+../Core/Src/type_packers.c:20:6:pack_u16	0	static
+../Core/Src/type_packers.c:28:6:unpack_u16	0	static
+../Core/Src/type_packers.c:36:6:pack_u32	8	static
+../Core/Src/type_packers.c:46:6:unpack_u32	0	static
+../Core/Src/type_packers.c:56:6:pack_float	16	static
+../Core/Src/type_packers.c:66:6:unpack_float	0	static

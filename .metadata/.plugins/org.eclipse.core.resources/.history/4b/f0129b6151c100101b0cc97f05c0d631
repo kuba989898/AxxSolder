@@ -1,0 +1,4 @@
+../Core/Src/debug.c:17:19:debug_print_str	0	static
+../Core/Src/debug.c:29:19:debug_print_int	0	static
+../Core/Src/debug.c:41:19:debug_print_int_int	0	static
+../Core/Src/debug.c:53:19:debug_print_pdos	0	static

@@ -3,6 +3,13 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="SW_ready"/>
+		<item value="EXTI"/>
+		<item value="BTN_LONG_LONG_PRESS"/>
+		<item value="SW_1_pressed_long_long"/>
+		<item value="draw_pwr_graph"/>
+		<item value="LCD_PutStr"/>
+		<item value=" LCD_PutStr"/>
 		<item value="cartridge_state"/>
 	</list>
 </section>

@@ -1,0 +1,5 @@
+../Core/Src/menu_settings.c:46:6:left_align_float	16	dynamic
+../Core/Src/menu_settings.c:84:13:get_enum_value_str	16	static
+../Core/Src/menu_settings.c:123:13:display_menu_value_line.constprop	80	static
+../Core/Src/menu_settings.c:181:6:normalize_param	8	static
+../Core/Src/menu_settings.c:223:6:settings_menu	160	static

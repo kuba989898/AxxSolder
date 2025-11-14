@@ -1,0 +1,6 @@
+../Core/Src/flash.c:11:10:GetPage	0	static
+../Core/Src/flash.c:16:6:FlashCheckCRC	16	static
+../Core/Src/flash.c:33:6:FlashReadToBuf	40	static
+../Core/Src/flash.c:62:6:FlashRead	16	static
+../Core/Src/flash.c:72:10:Flash_Write_Data	32	static
+../Core/Src/flash.c:127:6:FlashWrite	48	static

@@ -1,0 +1,2 @@
+../Core/Src/hysteresis.c:12:6:Hysteresis_Init	1
+../Core/Src/hysteresis.c:18:7:Hysteresis_Add	4

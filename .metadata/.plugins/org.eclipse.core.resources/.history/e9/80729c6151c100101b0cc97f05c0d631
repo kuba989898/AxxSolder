@@ -1,0 +1,2 @@
+Core/Src/hysteresis.o: ../Core/Src/hysteresis.c ../Core/Inc/hysteresis.h
+../Core/Inc/hysteresis.h:
